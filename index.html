@@ -11,7 +11,7 @@
     <body id="page-top">
     
       <!--Navigation bar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#page-top">Hayley Blackburn</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -19,14 +19,14 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">About Me</a>
                 <a class="nav-item nav-link" href="#">Work</a>
-                <a class="nav-item nav-link" href="#">Contact</a>
+                <a class="nav-item nav-link" href="#">Skills</a>
+                <a class="nav-item nav-link" href="#">About Me</a>
               </div>
             </div>
           </nav>
 
-      <!--Hero section - jumbotron-->
+      <!--Hero section jumbotron-->
         <div class="jumbotron">
             <h1 class="display-4">Hayley Blackburn</h1>
             <p class="lead">Front End Web Developer</p>
@@ -39,64 +39,78 @@
         
 
       <!--Work section - cards-->
-      <div class="container">
+      <div class="container-fluid work-container">
         <div class="row">
-          <!--Main project-->
-          <div class="col-12 project-card">
-            <div class="card main-project">
-              <div class="text-left main-project-label">
-                <h5 class="card-title">Horiseon Code Refactor</h5>
-                <p class="card-text">HTML/CSS</p>
-              </div>
-              <img class="card-img" src="images/horiseon-screenshot-min.png" alt="Card image">
-            </div>
+          <!--Work section heading-->
+          <div class="col-2 work-heading text-right">
+            <h2>Work</h2>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-6 project-card">
-            <div class="card">
-              <div class="text-left project-label">
-                <h5 class="card-title">Study Guide</h5>
-                <p class="card-text">HTML/CSS/Javascript</p>
+          <!--Projects, starting with main project-->
+          <div class="col-sm-10 col-md-10 col-lg-9 work-section">
+            <div class="row">
+              <div class="col-12 project-card">
+                <div class="card main-project">
+                  <div class="text-left main-project-label">
+                    <h5 class="card-title">Horiseon Code Refactor</h5>
+                    <p class="card-text">HTML/CSS</p>
+                  </div>
+                  <img class="card-img" src="images/horiseon-screenshot-min.png" alt="Card image">
+                </div>
               </div>
-              <img class="card-img" src="images/screenshot-preworkstudy.png" alt="Card image">
             </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-6 project-card">
-            <div class="card">
-              <div class="text-left project-label">
-                <h5 class="card-title">First Portfolio</h5>
-                <p class="card-text">HTML/CSS</p>
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6 project-card">
+                <div class="card">
+                  <div class="text-left project-label">
+                    <h5 class="card-title">Study Guide</h5>
+                    <p class="card-text">HTML/CSS/Javascript</p>
+                  </div>
+                  <img class="card-img" src="images/screenshot-preworkstudy.png" alt="Card image">
+                </div>
               </div>
-              <img class="card-img" src="images/screenshot-portfolio.png" alt="Card image">
+              <div class="col-sm-12 col-md-6 col-lg-6 project-card">
+                <div class="card">
+                  <div class="text-left project-label">
+                    <h5 class="card-title">First Portfolio</h5>
+                    <p class="card-text">HTML/CSS</p>
+                  </div>
+                  <img class="card-img" src="images/screenshot-portfolio.png" alt="Card image">
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-6 project-card project-placeholder">
-            <div class="card">
-              <div class="text-left project-label">
-                <h5 class="card-title">Project 4</h5>
-                <p class="card-text">Coming soon!</p>
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6 project-card project-placeholder">
+                <div class="card">
+                  <div class="text-left project-label">
+                    <h5 class="card-title">Project 4</h5>
+                    <p class="card-text">Coming soon!</p>
+                  </div>
+                  <img class="card-img" src="images/placeholder-1.jpg" alt="Card image">
+                </div>
               </div>
-              <img class="card-img" src="images/placeholder-1.jpg" alt="Card image">
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-6 project-card project-placeholder">
-            <div class="card">
-              <div class="text-left project-label">
-                <h5 class="card-title">Project 5</h5>
-                <p class="card-text">Coming soon!</p>
+              <div class="col-sm-12 col-md-6 col-lg-6 project-card project-placeholder">
+                <div class="card">
+                  <div class="text-left project-label">
+                    <h5 class="card-title">Project 5</h5>
+                    <p class="card-text">Coming soon!</p>
+                  </div>
+                  <img class="card-img" src="images/placeholder-2.jpg" alt="Card image">
+                </div>
               </div>
-              <img class="card-img" src="images/placeholder-2.jpg" alt="Card image">
             </div>
           </div>
         </div>
       </div>
 
 
-
       <!--Skills section-->
+      <div class="container">
+        <div class="row">
+          <div class="col">
+
+          </div>
+        </div>
+      </div>
 
 
       <!--About/Contact-->
