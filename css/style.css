@@ -40,7 +40,7 @@
     object-position: center;
 }
 
-.main-project-label, .project-label {
+.project-label {
     padding: 1%;
     position: absolute;
     bottom: 0;
