@@ -1,4 +1,27 @@
 
+body {
+background-color: black;
+}
+
+
+/*Jumbotron*/
+
+.jumbotron {
+    background-color:rgba(255, 255, 255, 0.2);
+}
+
+.jumbotron img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 150px;
+    border: 2px solid white;
+    opacity: 0.9;
+}
+
+.title-container {
+    margin-left: 3%;
+}
+
 .section-container {
     margin: 25px 0;
 }
@@ -6,26 +29,20 @@
 /*Work section*/
 
 .section-heading {
-    border-right: 2px solid black;
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 .project-card img {
     width: 100%;
     max-height: 200px;
     object-fit: cover;
-    object-position: center;
+    object-position: top;
     opacity: 0.6;
 }
 
 .project-card {
     padding-right: 0;
     padding-left: 5px;
-}
-
-.project-card img {
-    max-height: 200px;
-    object-fit: cover;
-    object-position: top;
 }
 
 .main-project img {
@@ -56,16 +73,17 @@
 
 /*Skills*/
 
-.skill {
+#skills-list li {
     padding: 5px;
-    background-color: rgba(00,00,00,0.2);
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
 }
+
 
 /*Footer*/
 
 footer {
     height: 100px;
-    background-color: lightgrey;
 }
 
 footer button {
@@ -75,6 +93,8 @@ footer button {
 footer button:hover {
     box-shadow: 3px 3px grey;
 }
+
+
 
 /*Media queries*/
 
@@ -86,5 +106,14 @@ footer button:hover {
     .section {
         border-top: 2px solid black;
         padding-top: 5px;
+    }
+
+    .jumbotron h1 {
+        font-size: 2rem;
+    }
+
+    .jumbotron img {
+        width: 125px;
+        height: 125px;
     }
 }

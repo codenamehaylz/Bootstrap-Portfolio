@@ -11,14 +11,14 @@
     <body id="page-top">
     
       <!--Navigation bar-->
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#page-top">Hayley Blackburn</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+              <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="#page-top">Home <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="#work">Work</a>
                 <a class="nav-item nav-link" href="#skills">Skills</a>
                 <a class="nav-item nav-link" href="#about">About Me</a>
@@ -27,30 +27,28 @@
           </nav>
 
       <!--Hero section jumbotron-->
-        <div class="jumbotron">
+        <div class="jumbotron d-flex justify-content-center align-items-center text-light">
+          <img src="images/MeThumbnail.jpg">
+          <div class="title-container">
             <h1 class="display-4">Hayley Blackburn</h1>
             <p class="lead">Front End Web Developer</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <p class="lead">
-              <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-            </p>
           </div>
+        </div>
         
 
       <!--Work section - cards-->
-      <div class="container-fluid section-container" id="work">
+      <div class="container-fluid section-container text-light" id="work">
         <div class="row">
           <!--Work section heading-->
           <div class="col-2 section-heading text-right">
             <h2>Work</h2>
           </div>
-          <!--Projects, starting with main project-->
+          <!--Main project - Horiseon  code refactor-->
           <div class="col-sm-10 col-md-10 col-lg-9 section">
             <div class="row">
               <div class="col-12 project-card">
                 <a href="https://codenamehaylz.github.io/horiseon-code-refactor/" target="_blank">
-                  <div class="card main-project">
+                  <div class="card main-project bg-dark">
                     <div class="text-left project-label">
                       <h5 class="card-title">Horiseon Code Refactor</h5>
                       <p class="card-text">HTML/CSS</p>
@@ -61,9 +59,10 @@
               </div>
             </div>
             <div class="row">
+              <!--Project 2 - Study Guide-->
               <div class="col-sm-12 col-md-6 col-lg-6 project-card">
                 <a href="https://codenamehaylz.github.io/prework-study-guide/" target="_blank">
-                  <div class="card">
+                  <div class="card bg-dark">
                     <div class="text-left project-label">
                       <h5 class="card-title">Study Guide</h5>
                       <p class="card-text">HTML/CSS/Javascript</p>
@@ -72,9 +71,10 @@
                   </div>
                 </a>
               </div>
+              <!--Project 3 - First portfolio-->
               <div class="col-sm-12 col-md-6 col-lg-6 project-card">
                 <a href="https://codenamehaylz.github.io/portfolio/" target="_blank">
-                  <div class="card">
+                  <div class="card bg-dark">
                     <div class="text-left project-label">
                       <h5 class="card-title">First Portfolio</h5>
                       <p class="card-text">HTML/CSS</p>
@@ -85,9 +85,10 @@
               </div>
             </div>
             <div class="row">
+              <!--Project 4 placeholder-->
               <div class="col-sm-12 col-md-6 col-lg-6 project-card project-placeholder">
                 <a href="">
-                  <div class="card">
+                  <div class="card bg-dark">
                     <div class="text-left project-label">
                       <h5 class="card-title">Project 4</h5>
                       <p class="card-text">Coming soon!</p>
@@ -96,9 +97,10 @@
                   </div>
                 </a>
               </div>
+              <!--Project 5 placeholder-->
               <div class="col-sm-12 col-md-6 col-lg-6 project-card project-placeholder">
                 <a href="">
-                  <div class="card">
+                  <div class="card bg-dark">
                     <div class="text-left project-label">
                       <h5 class="card-title">Project 5</h5>
                       <p class="card-text">Coming soon!</p>
@@ -114,7 +116,7 @@
 
 
       <!--Skills section-->
-      <div class="container-fluid section-container" id="skills">
+      <div class="container-fluid section-container text-light" id="skills">
         <div class="row">
           <!--Skills section heading-->
           <div class="col-2 section-heading text-right">
@@ -124,12 +126,18 @@
           <div class="col-sm-10 col-md-10 col-lg-9 section">
             <div class="row">
               <div class="col-12 section-text">
-                <ul class="list-inline list-unstyled">
-                  <li class="skill list-inline-item">HTML</li>
-                  <li class="skill list-inline-item">CSS</li>
-                  <li class="skill list-inline-item">Git</li>
-                  <li class="skill list-inline-item">Javascript</li>
-                  <li class="skill list-inline-item">Bootstrap</li>
+                <ul class="list-inline list-unstyled" id="skills-list">
+                  <li class="list-inline-item">HTML</li>
+                  <li class="list-inline-item">CSS</li>
+                  <li class="list-inline-item">Git</li>
+                  <li class="list-inline-item">GitHub</li>
+                  <li class="list-inline-item">Javascript</li>
+                  <li class="list-inline-item">Bootstrap</li>
+                  <li class="list-inline-item">UX</li>
+                  <li class="list-inline-item">Wireframing</li>
+                  <li class="list-inline-item">jQuery</li>
+                  <li class="list-inline-item">Node</li>
+                  <li class="list-inline-item">React</li>
                 </ul>
               </div>
             </div>
@@ -139,7 +147,7 @@
 
 
       <!--About/Contact-->
-      <div class="container-fluid section-container" id="about">
+      <div class="container-fluid section-container text-light" id="about">
         <div class="row">
           <!--About me section heading-->
           <div class="col-2 section-heading text-right">
@@ -149,7 +157,11 @@
           <div class="col-sm-10 col-md-10 col-lg-9 section">
             <div class="row">
               <div class="col-12 section-text">
-
+                <p>Hello! My name is Hayley, I'm a 30 year old Web Development student living in Lancashire, UK.
+                <p>I first learnt basic HTML and CSS when I was just a teenager editing my MySpace profile. Since then I've gained a first class degree in English Literature and have been working as an Administration Assistant for the past six years, but I haven't felt fulfilled.
+                  I realised that my first love of coding should have been the interest that I pursued further, so I enrolled myself in a Front End Web Development bootcamp with the aim of kickstarting a career in tech, and my passion for coding has been renewed!</p>
+                <p>I am looking forward to working on more projects that I will be able to showcase here on this page. For now, you can view the ones I have completed during the bootcamp above.</p>
+                <p>Outside of coding, my interests include reading, gaming, and spending time with my fiancé and our Patterdale Terrier, Izzy.</p>
               </div>
             </div>
           </div>
@@ -158,7 +170,7 @@
 
 
       <!--Footer-->
-      <footer class="container-fluid d-flex justify-content-center align-items-center">
+      <footer class="container-fluid d-flex justify-content-center align-items-center bg-dark">
         <a href="https://www.linkedin.com/in/hayley-blackburn-2009311a3/" target="_blank"><button type="button" class="btn btn-outline-primary">LinkedIn</button></a>
         <a href="https://twitter.com/codenamehaylz" target="_blank"><button type="button" class="btn btn-outline-primary">Twitter</button></a>
         <a href="https://www.instagram.com/lollerhaylz/" target="_blank"><button type="button" class="btn btn-outline-primary">Instagram</button></a>
