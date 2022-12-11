@@ -54,6 +54,27 @@
     opacity: 1;
 }
 
+/*Skills*/
+
+.skill {
+    padding: 5px;
+    background-color: rgba(00,00,00,0.2);
+}
+
+/*Footer*/
+
+footer {
+    height: 100px;
+    background-color: lightgrey;
+}
+
+footer button {
+    margin: 0px 25px;
+}
+
+footer button:hover {
+    box-shadow: 3px 3px grey;
+}
 
 /*Media queries*/
 
