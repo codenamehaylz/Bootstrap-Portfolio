@@ -1,6 +1,6 @@
 
 body {
-background-color: black;
+background-color: #0b222e;
 }
 
 
@@ -8,6 +8,7 @@ background-color: black;
 
 .jumbotron {
     background-color:rgba(255, 255, 255, 0.2);
+    border-radius: 0 0 40% 40%;
 }
 
 .jumbotron img {
@@ -20,10 +21,13 @@ background-color: black;
 
 .title-container {
     margin-left: 3%;
+    
 }
 
+/*Affects all sections*/
+
 .section-container {
-    margin: 25px 0;
+    margin: 80px 0;
 }
 
 /*Work section*/
@@ -41,8 +45,11 @@ background-color: black;
 }
 
 .project-card {
-    padding-right: 0;
-    padding-left: 5px;
+    padding: 5px 0 0 5px;
+}
+
+.card {
+    overflow:hidden;
 }
 
 .main-project img {
@@ -69,6 +76,8 @@ background-color: black;
 
 .project-card:hover img {
     opacity: 1;
+    transform: scale(1.1);
+    transition: all 0.8s;
 }
 
 /*Skills*/
@@ -96,7 +105,7 @@ footer button:hover {
 
 
 
-/*Media queries*/
+/*Media queries for small screen*/
 
 @media screen and (max-width:575px) {
     .section-heading {
@@ -104,7 +113,7 @@ footer button:hover {
     }
     
     .section {
-        border-top: 2px solid black;
+        border-top: 2px solid rgba(255, 255, 255, 0.2);
         padding-top: 5px;
     }
 
