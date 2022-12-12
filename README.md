@@ -6,6 +6,10 @@ The portfolio displays all of the projects that I have worked on, the skills I e
 
 The purpose of the portfolio is to demonstrate my skills to potential employers or clients, as well as serving as a reminder for how far I have come since my last portfolio, and how much further I will go in my next one!
 
+[Click here](https://codenamehaylz.github.io/Bootstrap-Portfolio/) to see the deployed page.
+
+![Screenshot of the portfolio](/images/bootstrap-portfolio-screenshot.png)
+
 ## Features
 The page features a few Bootstrap components such as a collapsible and responsive navigation bar, a jumbotron header, and cards in a grid layout to display my projects. Due to the responsive nature of Bootstrap components, the page required very few media queries.
 
