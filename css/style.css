@@ -20,8 +20,7 @@ background-color: #0b222e;
 }
 
 .title-container {
-    margin-left: 3%;
-    
+    margin-left: 2%; 
 }
 
 /*Affects all sections*/
@@ -74,10 +73,22 @@ background-color: #0b222e;
     color: white;
 }
 
+.card-hover-text {
+    display:none;
+}
+
 .project-card:hover img {
     opacity: 1;
     transform: scale(1.1);
     transition: all 0.8s;
+}
+
+.project-card:hover .card-hover-text {
+    display:block;
+}
+
+.project-card:hover .card-text {
+    display: none;
 }
 
 /*Skills*/
